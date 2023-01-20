@@ -15,7 +15,8 @@ public class Vehiculo {
             vehiculo = new Vehiculo(marca);	//Creamos un objeto
         }
         else{
-            System.out.println("El objeto marca "+ marca + " no ha sido generado dado que ya existe uno");
+            System.out.println("El objeto marca "+ marca + " no ha "
+            		+ "sido generado dado que ya existe uno");
         }
         //Retorna el valor 
         return vehiculo; 
