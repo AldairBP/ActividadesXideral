@@ -3,20 +3,20 @@ package com.luv2code.web.jdbc;
 public class Student {
 
 	private int id;
-	private String firstName;
-	private String lastName;
+	private String nombre;
+	private String apellido;
 	private String email;
 
-	public Student(String firstName, String lastName, String email) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	public Student(String nombre, String apellido, String email) {
+		this.nombre = nombre;
+		this.apellido = apellido;
 		this.email = email;
 	}
 
-	public Student(int id, String firstName, String lastName, String email) {
+	public Student(int id, String nombre, String apellido, String email) {
 		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.nombre = nombre;
+		this.apellido = apellido;
 		this.email = email;
 	}
 
@@ -29,19 +29,19 @@ public class Student {
 	}
 
 	public String getFirstName() {
-		return firstName;
+		return nombre;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFirstName(String nombre) {
+		this.nombre = nombre;
 	}
 
 	public String getLastName() {
-		return lastName;
+		return apellido;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLastName(String apellido) {
+		this.apellido = apellido;
 	}
 
 	public String getEmail() {
@@ -54,6 +54,6 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+		return "Student [id=" + id + ", nombre =" + nombre + ", apellido =" + apellido + ", email=" + email + "]";
 	}	
 }

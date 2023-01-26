@@ -4,7 +4,7 @@
 <html>
 
 <head>
-	<title>Student Tracker App</title>
+	<title>Estudiantes Xideral</title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
@@ -13,7 +13,7 @@
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>FooBar University</h2>
+			<h2>Xideral University</h2>
 		</div>
 	</div>
 
@@ -23,7 +23,7 @@
 		
 			<!-- put new button: Add Student -->
 			
-			<input type="button" value="Add Student" 
+			<input type="button" value="Agregar estudiante" 
 				   onclick="window.location.href='add-student-form.jsp'; return false;"
 				   class="add-student-button"
 			/>
@@ -31,10 +31,10 @@
 			<table>
 			
 				<tr>
-					<th>First Name</th>
-					<th>Last Name</th>
+					<th>Nombre</th>
+					<th>Apellido</th>
 					<th>Email</th>
-					<th>Action</th>
+					<th>Acción</th>
 				</tr>
 				
 				<c:forEach var="tempStudent" items="${STUDENT_LIST}">
@@ -56,11 +56,11 @@
 						<td> ${tempStudent.lastName} </td>
 						<td> ${tempStudent.email} </td>
 						<td> 
-							<a href="${tempLink}">Update</a> 
+							<a href="${tempLink}">Actualizar</a> 
 							 | 
 							<a href="${deleteLink}"
-							onclick="if (!(confirm('Are you sure you want to delete this student?'))) return false">
-							Delete</a>	
+							onclick="if (!(confirm('¿Estás seguro que quieres eliminar este estudiante?'))) return false">
+							Eliminar</a>	
 						</td>
 					</tr>
 				
