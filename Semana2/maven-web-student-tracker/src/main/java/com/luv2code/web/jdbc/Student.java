@@ -13,10 +13,10 @@ public class Student {
 		this.email = email;
 	}
 
-	public Student(int id, String nombre, String apellido, String email) {
+	public Student(int id, String firstName, String lastName, String email) {
 		this.id = id;
-		this.nombre = nombre;
-		this.apellido = apellido;
+		this.nombre = firstName;
+		this.apellido = lastName;
 		this.email = email;
 	}
 
@@ -32,16 +32,16 @@ public class Student {
 		return nombre;
 	}
 
-	public void setFirstName(String nombre) {
-		this.nombre = nombre;
+	public void setFirstName(String firstName) {
+		this.nombre = firstName;
 	}
 
 	public String getLastName() {
 		return apellido;
 	}
 
-	public void setLastName(String apellido) {
-		this.apellido = apellido;
+	public void setLastName(String lastName) {
+		this.apellido = lastName;
 	}
 
 	public String getEmail() {
