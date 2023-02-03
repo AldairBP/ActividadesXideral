@@ -1,2 +1,5 @@
 Tareas
 1. Hacer un programa con pruebas unitarias.
+2. Hacer un documento de comandos Git avanzados
+3. Proyecto Spring MVC
+4. Spring Batch
