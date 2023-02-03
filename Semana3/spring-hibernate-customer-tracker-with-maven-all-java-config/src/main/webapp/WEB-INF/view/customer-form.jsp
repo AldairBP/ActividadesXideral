@@ -35,17 +35,17 @@
 				<tbody>
 					<tr>
 						<td><label>Modelo:</label></td>
-						<td><form:input path="firstName" /></td>
+						<td><form:input path="modelo" /></td>
 					</tr>
 				
 					<tr>
 						<td><label>Marca:</label></td>
-						<td><form:input path="lastName" /></td>
+						<td><form:input path="marca" /></td>
 					</tr>
 
 					<tr>
 						<td><label>Matrícula:</label></td>
-						<td><form:input path="email" /></td>
+						<td><form:input path="matricula" /></td>
 					</tr>
 
 					<tr>
