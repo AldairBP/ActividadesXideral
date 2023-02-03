@@ -5,7 +5,7 @@
 <html>
 
 <head>
-	<title>List Customers</title>
+	<title>Lista de vehiculos</title>
 	
 	<!-- reference our style sheet -->
 
@@ -19,7 +19,7 @@
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>CRM - Customer Relationship Manager</h2>
+			<h2>Vehiculos Xideral</h2>
 		</div>
 	</div>
 	
@@ -29,7 +29,7 @@
 		
 			<!-- put new button: Add Customer -->
 		
-			<input type="button" value="Add Customer"
+			<input type="button" value="Agregar vehículo"
 				   onclick="window.location.href='showFormForAdd'; return false;"
 				   class="add-button"
 			/>
@@ -38,10 +38,10 @@
 		
 			<table>
 				<tr>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Email</th>
-					<th>Action</th>
+					<th>Modelo</th>
+					<th>Marca</th>
+					<th>Matrícula</th>
+					<th>Accion</th>
 				</tr>
 				
 				<!-- loop over and print our customers -->
@@ -64,10 +64,10 @@
 						
 						<td>
 							<!-- display the update link -->
-							<a href="${updateLink}">Update</a>
+							<a href="${updateLink}">Actualizar</a>
 							|
 							<a href="${deleteLink}"
-							   onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false">Delete</a>
+							   onclick="if (!(confirm('¿Estás seguro que quieres eliminar este vehículo?'))) return false">Eliminar</a>
 						</td>
 						
 					</tr>
