@@ -1,0 +1,2 @@
+Tareas semana 4
+1. desarrollar un programa con lambdas
