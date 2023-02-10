@@ -58,9 +58,9 @@
 					</c:url>					
 					
 					<tr>
-						<td> ${tempCustomer.firstName} </td>
+						<td> ${tempCustomer.modelo} </td>
 						<td> ${tempCustomer.marca} </td>
-						<td> ${tempCustomer.email} </td>
+						<td> ${tempCustomer.matricula} </td>
 						
 						<td>
 							<!-- display the update link -->

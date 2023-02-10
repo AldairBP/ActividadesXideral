@@ -35,7 +35,7 @@
 				<tbody>
 					<tr>
 						<td><label>Modelo:</label></td>
-						<td><form:input path="firstName" /></td>
+						<td><form:input path="modelo" /></td>
 					</tr>
 				
 					<tr>
@@ -45,7 +45,7 @@
 
 					<tr>
 						<td><label>Matrícula:</label></td>
-						<td><form:input path="email" /></td>
+						<td><form:input path="matricula" /></td>
 					</tr>
 
 					<tr>

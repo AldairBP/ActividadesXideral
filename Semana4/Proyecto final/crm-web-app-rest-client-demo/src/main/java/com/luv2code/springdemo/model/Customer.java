@@ -4,11 +4,11 @@ public class Customer {
 
 	private int id;
 	
-	private String firstName;
+	private String modelo;
 	
 	private String marca;
 	
-	private String email;
+	private String matricula;
 	
 	public Customer() {
 		
@@ -22,12 +22,12 @@ public class Customer {
 		this.id = id;
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getModelo() {
+		return modelo;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
 	}
 
 	public String getMarca() {
@@ -38,17 +38,17 @@ public class Customer {
 		this.marca = marca;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getMatricula() {
+		return matricula;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 	}
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", marca=" + marca + ", email=" + email + "]";
+		return "Customer [id=" + id + ", modelo=" + modelo + ", marca=" + marca + ", matricula=" + matricula + "]";
 	}
 		
 }
