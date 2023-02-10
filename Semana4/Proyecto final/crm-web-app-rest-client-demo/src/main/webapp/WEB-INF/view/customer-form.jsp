@@ -4,7 +4,7 @@
 <html>
 
 <head>
-	<title>Save Customer</title>
+	<title>Guardar Vehículo</title>
 
 	<link type="text/css"
 		  rel="stylesheet"
@@ -19,12 +19,12 @@
 	
 	<div id="wrapper">
 		<div id="header">
-			<h2>CRM - Customer Relationship Manager</h2>
+			<h2>CRM - Administrador de Vehículos</h2>
 		</div>
 	</div>
 
 	<div id="container">
-		<h3>Save Customer</h3>
+		<h3>Guardar vehículo</h3>
 	
 		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
 
@@ -34,23 +34,23 @@
 			<table>
 				<tbody>
 					<tr>
-						<td><label>First name:</label></td>
+						<td><label>Modelo:</label></td>
 						<td><form:input path="firstName" /></td>
 					</tr>
 				
 					<tr>
-						<td><label>Last name:</label></td>
-						<td><form:input path="lastName" /></td>
+						<td><label>Marca:</label></td>
+						<td><form:input path="marca" /></td>
 					</tr>
 
 					<tr>
-						<td><label>Email:</label></td>
+						<td><label>Matrícula:</label></td>
 						<td><form:input path="email" /></td>
 					</tr>
 
 					<tr>
 						<td><label></label></td>
-						<td><input type="submit" value="Save" class="save" /></td>
+						<td><input type="submit" value="Guardar" class="save" /></td>
 					</tr>
 
 				
@@ -63,7 +63,7 @@
 		<div style="clear; both;"></div>
 		
 		<p>
-			<a href="${pageContext.request.contextPath}/customer/list">Back to List</a>
+			<a href="${pageContext.request.contextPath}/customer/list">Regresar a la lista</a>
 		</p>
 	
 	</div>
